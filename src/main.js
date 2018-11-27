@@ -1,7 +1,11 @@
 import Vue from 'vue'
+import FastClick from 'fastclick'
 import App from './App.vue'
 import router from './router/index'
 import store from './store'
+
+// 解决移动端点击延迟300毫秒
+FastClick.attach(document.body)
 
 import { Dialog, Loading, Toast } from 'vant'
 

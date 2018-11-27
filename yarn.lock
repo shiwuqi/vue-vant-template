@@ -3362,6 +3362,11 @@ fast-levenshtein@~2.0.4:
   resolved "http://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fastclick@^1.0.6:
+  version "1.0.6"
+  resolved "http://registry.npm.taobao.org/fastclick/download/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
+  integrity sha1-FhYlsnsaWAZAWTa9qaLBkm0Gvmo=
+
 fastparse@^1.1.1:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/fastparse/download/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
@@ -7792,6 +7797,18 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+vconsole-webpack-plugin@^1.4.2:
+  version "1.4.2"
+  resolved "http://registry.npm.taobao.org/vconsole-webpack-plugin/download/vconsole-webpack-plugin-1.4.2.tgz#838346f70dc68c0dbd0c85ef88e625575f2b9a2d"
+  integrity sha1-g4NG9w3GjA29DIXviOYlV18rmi0=
+  dependencies:
+    vconsole "^3.1.0"
+
+vconsole@^3.1.0:
+  version "3.2.0"
+  resolved "http://registry.npm.taobao.org/vconsole/download/vconsole-3.2.0.tgz#960e2877d685a9543f5f30ec055a66a96ac15bb5"
+  integrity sha1-lg4od9aFqVQ/XzDsBVpmqWrBW7U=
 
 vendors@^1.0.0:
   version "1.0.2"
