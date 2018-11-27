@@ -6,7 +6,7 @@ function resolve(dir) {
 module.exports = {
     baseUrl: process.env.NODE_ENV === 'production' ? './' : '/',
     configureWebpack: {
-        plugins:[
+        plugins: [
             new vConsolePlugin({
                 filter: [],  // 需要过滤的入口文件
                 enable: true // 发布代码前记得改回 false
@@ -16,5 +16,15 @@ module.exports = {
     chainWebpack: config => {
         config.resolve.alias
             .set('@', resolve('src'))
+    },
+    css: {
+        loaderOptions: {
+            less: {
+                modifyVars: {
+                    blue: '#3eaf7c',
+                    'text-color': '#111'
+                }
+            }
+        }
     }
 }
