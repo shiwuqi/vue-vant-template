@@ -1,4 +1,4 @@
-const host = "https://qmlktest.cps998.com/index.php"
+const host = "https://a.com/"
 export default {
   host: host,
   title: 'vue-vant-template',

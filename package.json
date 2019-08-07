@@ -6,10 +6,14 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "analyze": "cross-env NODE_ENV=production npm_config_report=true npm run build"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "compression-webpack-plugin": "1.1.12",
+    "cross-env": "^5.2.0",
+    "script-ext-html-webpack-plugin": "^2.1.4",
     "vant": "^1.4.5",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
